@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="form2.html">Page 2</a></li>
+            <li><a href="form3.html">Page 3</a></li>
+            <li><a href="page4.html">Page 4</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Radio Buttons</h2>
+        <form>
+            <fieldset>
+                <legend>Choose a Color:</legend>
+                <label for="red">Red</label>
+                <input type="radio" id="red" name="color" value="Red">
+                <label for="green">Green</label>
+                <input type="radio" id="green" name="color" value="Green">
+                <label for="blue">Blue</label>
+                <input type="radio" id="blue" name="color" value="Blue">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Checkboxes</h2>
+        <form>
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <br>
+            <label for="promotions">Receive Promotions:</label>
+            <input type="checkbox" id="promotions" name="promotions" value="yes">
+            <br>
+            <label for="updates">Receive Updates:</label>
+            <input type="checkbox" id="updates" name="updates" value="yes">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
